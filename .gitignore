@@ -1,0 +1,7 @@
+data/
+*.socialvault
+*.log
+node_modules/
+test-output/
+.npm-cache/
+.electron-cache/

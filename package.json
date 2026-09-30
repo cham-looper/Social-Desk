@@ -1,0 +1,20 @@
+{
+  "name": "social-desk-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "desktop/main.mjs",
+  "description": "An encrypted, local workspace for manual social publishing.",
+  "scripts": {
+    "start": "node server.mjs",
+    "desktop": "electron .",
+    "setup-desktop": "node node_modules/electron/install.js",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "electron": "44.4.5"
+  }
+}
